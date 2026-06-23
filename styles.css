@@ -334,6 +334,7 @@ h3 {
 }
 
 .music-section {
+  padding-top: clamp(78px, 7vw, 100px);
   background:
     radial-gradient(circle at 12% 22%, rgba(107, 45, 54, 0.36), transparent 34%),
     linear-gradient(160deg, #171515, #29211f);
