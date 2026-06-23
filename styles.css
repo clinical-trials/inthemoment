@@ -347,9 +347,9 @@ h3 {
 
 .director-note {
   max-width: 42rem;
-  margin-top: clamp(32px, 5vw, 52px);
-  padding-top: 26px;
-  border-top: 1px solid rgba(247, 241, 230, 0.2);
+  margin-bottom: clamp(36px, 5vw, 56px);
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(247, 241, 230, 0.2);
 }
 
 .director-note .director-label {
@@ -376,6 +376,10 @@ h3 {
   font-family: var(--serif);
   font-size: 1.12rem;
   line-height: 1.55;
+}
+
+.music-intro {
+  max-width: 42rem;
 }
 
 .audio-panel {
