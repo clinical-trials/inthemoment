@@ -347,21 +347,13 @@ h3 {
 
 .director-note {
   max-width: 42rem;
-  margin-bottom: clamp(36px, 5vw, 56px);
-  padding-bottom: 30px;
-  border-bottom: 1px solid rgba(247, 241, 230, 0.2);
-}
-
-.director-note .director-label {
-  color: var(--brass-light);
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  margin-top: clamp(36px, 5vw, 56px);
+  padding-top: 30px;
+  border-top: 1px solid rgba(247, 241, 230, 0.2);
 }
 
 .director-note h3 {
-  margin: 8px 0 14px;
+  margin: 18px 0 14px;
   font-size: 1.65rem;
 }
 
