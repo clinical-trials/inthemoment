@@ -348,7 +348,7 @@ h3 {
 
 .director-note {
   max-width: 42rem;
-  margin-top: clamp(36px, 5vw, 56px);
+  margin-top: clamp(56px, 7vw, 84px);
   padding-top: 30px;
   border-top: 1px solid rgba(247, 241, 230, 0.2);
 }
