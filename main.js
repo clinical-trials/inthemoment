@@ -74,7 +74,7 @@ form?.addEventListener("submit", (event) => {
 
   const subject = encodeURIComponent("In the Moment event inquiry");
   const body = encodeURIComponent(lines.join("\n"));
-  window.location.href = `mailto:Calvinappleberry@gmail.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:info@inthemomentnm.com?subject=${subject}&body=${body}`;
 
   if (formStatus) {
     formStatus.textContent =
