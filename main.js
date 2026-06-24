@@ -15,12 +15,14 @@ window.addEventListener("scroll", setHeaderState, { passive: true });
 navToggle?.addEventListener("click", () => {
   const isOpen = nav?.classList.toggle("is-open");
   navToggle.setAttribute("aria-expanded", String(Boolean(isOpen)));
+  navToggle.setAttribute("aria-label", isOpen ? "Close navigation menu" : "Open navigation menu");
 });
 
 nav?.addEventListener("click", (event) => {
   if (event.target instanceof HTMLAnchorElement) {
     nav.classList.remove("is-open");
     navToggle?.setAttribute("aria-expanded", "false");
+    navToggle?.setAttribute("aria-label", "Open navigation menu");
   }
 });
 
