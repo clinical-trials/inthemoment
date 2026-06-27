@@ -759,24 +759,6 @@ audio {
   overflow-wrap: anywhere;
 }
 
-.visit-counter {
-  display: inline-flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 8px;
-  margin-top: 8px;
-  color: rgba(247, 241, 230, 0.58);
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.visit-counter img {
-  width: auto;
-  height: 20px;
-  border-radius: 4px;
-}
-
 @media (max-width: 900px) {
   .nav-toggle {
     display: block;
@@ -892,10 +874,6 @@ audio {
 
   .footer-contact {
     text-align: left;
-  }
-
-  .visit-counter {
-    justify-content: flex-start;
   }
 }
 
